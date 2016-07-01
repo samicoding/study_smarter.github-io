@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css">
+  <script src="StudySmarter.js"></script>
+  <title>Home</title>
+</head>
+<body>
+  <div class="container" id="home" style="height:1175px">
+  <div class="top" style="padding-top:75px;">
+    <a href="/pages/home"> <%= image_tag("SS_logo_large.png", :class => "name") %> </a>
+    <div class="nav">
+        <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+                <a href="/pages/satact">SAT & ACT Prep</a>
+                <a href="/extra_pages/sat_prep"> <li style="padding-left:10px;">SAT & ACT Info</li> </a>
+                <a href="/pages/independent">Independent School Exam Prep</a>
+                <a href="/pages/Academic">Academic Support</a>
+                <a href="/pages/subjectTests">SAT Subject Test Prep </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">About</button>
+            <div class="dropdown-content">
+                <a href="/pages/contact">Contact us</a>
+                <a href="/pages/about">Our Company</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="/pages/home"><button class="dropbtn">Home</button> </a>
+            <div class="dropdown-content">
+            </div>
+        </div>
+    </div>
+
+</div>
+<%= image_tag("Logo.jpg", :class => "image") %>
+
+<div>
+  <ul class="info"> We strive to offer the most comprehensive one-on-one tutoring possible</ul>
+  <ul class="info"> We support our students with top-notch instruction and personalized programs</ul>
+    <ul class="info"> We work in partnership with families to empower each student to recognize and achieve his or her personal best</ul>
+</div>
+
+<div id="moreInfo">
+    <div class="prepType">
+        <a href="/pages/satact">
+            <h1 class="prepTitle">SAT & ACT</h1>
+            <%= image_tag("SSdude1.jpg", :class => "images") %>
+            <p class="prepInfo">Click here to learn more</p>
+        </a>
+    </div>
+    <div class="prepType">
+        <a href="/pages/independent">
+            <h1 class="prepTitle">Independent School Exams</h1>
+            <%= image_tag("SSdude2.jpg", :class => "images") %>
+            <p class="prepInfo"> Click here to learn more </p>
+        </a>
+    </div>
+    <div class="prepType">
+        <a href="/pages/subjectTests">
+            <h1 class="prepTitle">Subject Tests</h1>
+            <%= image_tag("SSdude3.png", :class => "images") %>
+            <p class="prepInfo"> Click here to learn more </p>
+        </a>
+    </div>
+    <div class="prepType">
+        <a href="/pages/Academic">
+            <h1 class="prepTitle">Academic</h1>
+            <%= image_tag("SSdude4.jpg", :class => "images") %>
+            <p class="prepInfo"> Click here to learn more </p>
+        </a>
+    </div>
+</div>
+
+<div class="footer">
+    <a href="SSAbout.html" class= "foots"> Office Address: 2220 Mountain Blvd Suite 220
+    </a>
+    <a href="SSAbout.html" class= "foots"> Phone: (510) 350-8444
+    </a>
+    <a href="SSAbout.html"class= "foots"> Study Smarter LLC PO Box 21068 Oakland, CA 94620
+    </a>
+</div>
+
+</div>
+
+</body>
+
+</html>
